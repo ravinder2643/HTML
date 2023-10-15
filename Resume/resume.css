@@ -1,0 +1,89 @@
+/* Reset default margin and padding for the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Background color for the entire page */
+    border : 20px solid black
+  }
+  
+  /* Style the container div */
+  div {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color:rgb(193, 215, 199); /* Background color for the container */
+    padding: 20px;
+    border : 20px solid white
+    border-radius : 40px; /* Rounded corners */
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Style the header section */
+  h1 {
+    color: #333; /* Dark text color */
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  img {
+    border-radius: 40%; /* Make the image round */
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #0077b5; /* LinkedIn and GitHub link color */
+    text-decoration: none;
+  }
+  
+  /* Style the ABOUT section */
+  table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Style the Education and Work Experience sections */
+  section {
+    margin-top: 20px;
+    border-top: 5px solid black;
+    font-weight: bolder;
+    color: black; /* Add a separator line */
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+  }
+  
+  li {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /*  Projects section */
+  h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  
+  /*  the footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  
